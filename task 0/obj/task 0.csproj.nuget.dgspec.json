@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj": {}
+    "c:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj": {
+    "c:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj",
+        "projectUniqueName": "c:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj",
         "projectName": "task 0",
-        "projectPath": "C:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj",
+        "projectPath": "c:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\task 0.csproj",
         "packagesPath": "C:\\Users\\klonk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\obj\\",
+        "outputPath": "c:\\Users\\klonk\\OneDrive\\Рабочий стол\\BIA\\Программирование на C#\\C#4431\\task 0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\klonk\\AppData\\Roaming\\NuGet\\NuGet.Config"
