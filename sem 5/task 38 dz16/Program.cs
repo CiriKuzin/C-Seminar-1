@@ -17,5 +17,5 @@ System.Console.WriteLine($"[{string.Join("; ", array)}]");
 
 double MaxValue = array.Max<double>();
 double MinValue = array.Min<double>();
-System.Console.WriteLine($"Максимальный элемент массива : {MaxValue}");
-System.Console.WriteLine($"Минимальный элемент массива : {MinValue}");
+double diff = MaxValue - MinValue;
+System.Console.WriteLine($"Разница между максимальным элементом массива ({MaxValue}) и минимальным ({MinValue}): {diff}");
