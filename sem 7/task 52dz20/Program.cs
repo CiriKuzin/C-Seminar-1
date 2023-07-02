@@ -26,6 +26,10 @@ void PosNum (int[,] matrix)
             {
                 System.Console.Write($"В заданной позиции находится число {matrix[i,j]}");
             }
+            else
+            {
+                System.Console.Write($"числа с такими координатами нет");
+            }
         }
     }
     
