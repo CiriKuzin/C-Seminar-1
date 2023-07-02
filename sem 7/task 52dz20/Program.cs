@@ -12,40 +12,23 @@
     }
 }
 
-void FindMin (int[,] matrix)
+void PosNum (int[,] matrix)
 {
-    int min = matrix[0,0];
-    int l = 0;
-    int c = 0;
+    System.Console.Write("Введите номер строки: ");
+    int line = Convert.ToInt32(Console.ReadLine());
+    System.Console.Write("Введите номер столбца: ");
+    int column = Convert.ToInt32(Console.ReadLine());
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (matrix[i, j] < min)
+            if (i == line - 1 && j == column - 1)
             {
-                min = matrix[i, j];
-                l = i;
-                c = j;
+                System.Console.Write($"В заданной позиции находится число {matrix[i,j]}");
             }
         }
     }
-    System.Console.Write($"Наменьшее число массива {min} имеет координаты [{line},{column}]");
-    System.Console.WriteLine();
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        if (i != l)
-        {
-            for (int j = 0; j < matrix.GetLength(1); j++)
-            {
-                if (j != c)
-                {
-                    System.Console.Write($"{matrix[i,j]} ");
-                }
-            }
-            System.Console.WriteLine();
-        }
-        
-    }
+    
 }
 
 System.Console.Write("Введите кол-во строк: ");
@@ -54,4 +37,4 @@ System.Console.Write("Введите кол-во столбцов: ");
 int column = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int [row, column];
 CreateMatrix(matrix);
-FindMin(matrix);
+PosNum(matrix);
