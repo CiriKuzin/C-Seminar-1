@@ -1,4 +1,4 @@
-﻿﻿int[] CreateArray(int size)
+﻿int[] CreateArray(int size)
 {
     int[] arr = new int[size];
     Random a = new Random();
