@@ -37,7 +37,7 @@ int[,] matrix = new int [row, column];
 CreateMatrix(matrix);
 
 int[] array = new int[] {0,0,0,0,0,0,0,0,0,0};
-SearchCopy(matrix, array);
+SearchRepet(matrix, array);
 
 for (int k = 0; k < 10; k++)
 {
